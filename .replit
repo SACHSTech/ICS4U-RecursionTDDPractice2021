@@ -1,4 +1,6 @@
 language = "java10"
+run = "javac -d bin src/Group6.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/Group#Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c Group#Test
+
 
 # run = "javac -d bin src/RecursionTDD/Group5.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/RecursionTDD/Group5Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c RecursionTDD.Group5Test; javac -d bin src/RecursionTDD/Group5.java; java -classpath bin RecursionTDD.Group5"
 
