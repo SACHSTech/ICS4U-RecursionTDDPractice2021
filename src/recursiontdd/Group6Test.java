@@ -18,10 +18,12 @@ public class Group6Test { // rename class to refere proper class
         assertEquals(true, Group6.array6(new int[]{1, 6, 4}, 0));
     }
 
+    @Test
     public void Test2(){
         assertEquals(true, Group6.array6(new int[]{1, 6}, 0));
     }
-
+    
+    @Test
     public void Test3(){
         assertEquals(false, Group6.array6(new int[]{1, 4}, 0));
     }
