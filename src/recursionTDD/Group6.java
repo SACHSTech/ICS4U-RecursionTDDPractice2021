@@ -6,6 +6,6 @@ public class Group6{
     if(nums[index] == 6){
       return true;
     }
-    return array6(nums,index+1);
+    return array6(nums, index + 1);
   }
 }

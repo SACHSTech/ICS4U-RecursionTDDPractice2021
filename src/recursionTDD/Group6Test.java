@@ -8,14 +8,14 @@ import recursiontdd.GroupNUM; //rename to reference proper class
 * See https://github.com/mrfabroa/Fabroa-ICS4U-NotesExamples/blob/main/src/tdd/TDDExampleTest.java for an example
 */
 
-public class GroupNUMTest { // rename class to refere proper class
+public class Group6Test { // rename class to refere proper class
 
     /**
      * An initial test
      */
     @Test
     public void Test1(){
-        // make assertion statement(s)
+        assertEquals(Group6.array6([1, 6, 4], 0), true);
     }
 
    //Add additional tests
