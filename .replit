@@ -1,4 +1,36 @@
 language = "java10"
 
-run = "javac -d bin src/recursiontdd/Group4.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/recursiontdd/Group4Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c recursiontdd.Group4Test"
+
+# run = "javac -d bin src/recursiontdd/Group4.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/recursiontdd/Group4Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c recursiontdd.Group4Test"
+
+
+
+# run = "javac -d bin src/RecursionTDD/Group5.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/RecursionTDD/Group5Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c RecursionTDD.Group5Test; javac -d bin src/RecursionTDD/Group5.java; java -classpath bin RecursionTDD.Group5"
+
+run = "javac -d bin src/recursiontdd/Group5.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/recursiontdd/Group5Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c recursiontdd.Group5Test; javac -d bin src/recursiontdd/Group5.java; java -classpath bin recursiontdd.Group5"
+
+
+
+# run = "javac -d bin src/RecursionTDD/Group4.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/RecursionTDD/Group4Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c RecursionTDD.Group4Test"
+
+
+run = "javac -d bin src/recursiontdd/Group6.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/recursiontdd/Group6Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c recursiontdd.Group6Test; javac -d bin src/recursiontdd/Group6.java; java -cp bin recursiontdd.Group6"
+
+
+# run = "javac -d bin src/recursiontdd/Group7.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/recursiontdd/Group7Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c recursiontdd.Group7Test"
+
+
+ #run = "javac -d bin src/recursiontdd/Group3.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/recursiontdd/Group3Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c recursiontdd.Group3Test"
+
+
+# run = "javac -d bin src/Group2.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/Group2Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c Group2Test"
+
+
+# run = "javac -d bin src/Group5.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/Group5Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c Group5Test"
+
+
+# run = "javac -d bin src/Group2.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/Group2Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c Group2Test"
+
+
+run = "javac -d bin src/recursiontdd/Group2.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/recursiontdd/Group2Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c recursiontdd.Group2Test"
 
