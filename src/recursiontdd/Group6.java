@@ -1,3 +1,4 @@
+package recursiontdd;
 public class Group6{
   public static boolean array6(int[] nums, int index){
     if(nums.length == 0 || index > nums.length-1){
