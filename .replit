@@ -12,6 +12,6 @@ language = "java10"
 # run = "javac -d bin src/recursiontdd/Group7.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/recursiontdd/Group7Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c recursiontdd.Group7Test"
 
 
-# run = "javac -d bin src/recursiontdd/Group3.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/recursiontdd/Group3Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c recursiontdd.Group3Test"
+ run = "javac -d bin src/recursiontdd/Group3.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/recursiontdd/Group3Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c recursiontdd.Group3Test"
 
-run = "javac -d bin src/Group2.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/Group2Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c Group2Test"
+# run = "javac -d bin src/Group2.java; javac -d bin -sourcepath src -classpath lib/junit-platform-console-standalone-1.7.0-M1.jar src/Group2Test.java; java -jar lib/junit-platform-console-standalone-1.7.0-M1.jar --class-path bin -c Group2Test"
